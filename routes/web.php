@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/portfolio',[App\Http\Controllers\TodoController::class,'index']);
+Route::get('/',[App\Http\Controllers\TodoController::class,'index']);
 
 Route::POST('/create',[App\Http\Controllers\TodoController::class,'store']);
 Route::get('/confirmation',[App\Http\Controllers\TodoController::class,'form']);

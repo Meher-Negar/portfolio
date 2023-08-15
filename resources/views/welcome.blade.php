@@ -187,7 +187,60 @@
         </div>
  
     </section>
+<!-- Internship -->
 
+<section id="internship">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 ">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title  my-3">
+                                <h4 class="text-center" >Working experiences</h4>
+                            </div>
+                        </div>
+                     <div class="card-body">
+                        <div class="table-responsive">
+                        <table class="table table-bordered border">
+                        <thead>
+    <tr>
+     
+      <th scope="col">Company</th>
+      <th scope="col">Designation</th>
+      <th scope="col">Started from</th>
+      <th scope="col">To</th>
+       
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td scope="row">Jackpt</td>
+
+      <td>Intern Software Engineer (Php/Larave)</td>
+      <td>August</td>
+      <td>continuing</td>
+    </tr>
+   
+   
+  </tbody>
+</table>
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+<!-- Training -->
     <section id="internship">
         <div class="container">
             <div class="row justify-content-center">
@@ -217,7 +270,7 @@
       <td scope="row">Professional Web Development
 Specialist</td>
 
-<td><a href="{{asset('frontend')}}/cirtificate.jpg"><button class="btn btn-primary">View Certificate</button></a></td>
+<td><a href="{{asset('frontend')}}/cirtificate.jpg">View Certificate</a></td>
       <td>Html,Css,JavaScript,Bootstrap,php,
 Laravel,JQuery,OOP,MySQL</td>
       <td>People n tech</td>
@@ -268,29 +321,33 @@ Laravel,JQuery,OOP,MySQL</td>
     <section class="portfolio" id="portfolio">
         <div class="heading">
             <h2>Portfolio</h2>
-            <span>Our Recent Work</span>
+            <span>My Recent Work</span>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 ">
                 <div class="portfolio-content">
             <div class="portfolio-img">
-              <a href="#"><img src="{{asset('frontend')}}/work6.jpg" alt="" height="280px" ></a>  
+
+              <a href="https://github.com/Meher-Negar"target="_blank"><img src="{{asset('frontend')}}/capture.png" alt="" height="280px" ></a>  
             </div>
             <div class="portfolio-img">
-                <img src="{{asset('frontend')}}/work2.jpg" alt="" height="280px">
+                <a href="https://github.com/Meher-Negar"target="_blank"><img src="{{asset('frontend')}}/cv.png" alt="" height="280px"></a>
+                
             </div>
             <div class="portfolio-img">
-                <img src="{{asset('frontend')}}/work3.jpg" alt="" height="280px">
+                <a href="https://github.com/Meher-Negar"target="_blank"><img src="{{asset('frontend')}}/capture1.png" alt="" height="280px"></a>
+                
             </div>
             <div class="portfolio-img">
-                <img src="{{asset('frontend')}}/work4.jpg" alt="" height="280px">
+               <a href="https://github.com/Meher-Negar"target="_blank"> <img src="{{asset('frontend')}}/capture3.png" alt="" height="280px"></a>
             </div>
             <div class="portfolio-img">
-                <img src="{{asset('frontend')}}/work5.jpg" alt="" height="280px">
+                <a href="https://github.com/Meher-Negar"target="_blank"><img src="{{asset('frontend')}}/work3.jpg" alt="" height="280px"></a>
+               
             </div>
             <div class="portfolio-img">
-                <img src="{{asset('frontend')}}/wpt.jpg" alt="" height="280px">
+               <a href="https://github.com/Meher-Negar"target="_blank"> <img src="{{asset('frontend')}}/capture4.png" alt="" height="280px"></a>
             </div>
             
         </div>
